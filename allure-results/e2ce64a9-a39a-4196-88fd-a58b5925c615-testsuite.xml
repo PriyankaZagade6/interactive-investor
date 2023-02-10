@@ -1,0 +1,268 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675967502363' stop='1675967515240'>
+    <name>Home page feature test</name>
+    <title>Home page feature test</title>
+    <test-cases>
+        <test-case start='1675967502364' status='passed' stop='1675967514973'>
+            <name>verify home page title</name>
+            <title>verify home page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675967502369' status='passed' stop='1675967512491'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e8008431-1e9b-4663-96d1-4184057f1671-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675967512491' status='passed' stop='1675967514955'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='b2022c8d-fb45-431e-b124-dad4bfa596f0-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675967514964' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='47b5f7e0-0b0a-4b54-9a6b-830667adaf88-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1675967514970' status='undefined'>
+                            <name>GET /session/:sessionId/title</name>
+                            <title>GET /session/:sessionId/title</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1675967514982' status='passed' stop='1675967514989'>
+            <name>verify Servies header</name>
+            <title>verify Servies header</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675967514985' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='456f637d-88b2-4028-ace4-7818891dbe0e-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1675967515001' status='broken' stop='1675967515010'>
+            <name>verify click on Trading Account link and verify the new url</name>
+            <title>verify click on Trading Account link and verify the new url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675967515003' status='broken' stop='1675967515009'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675967515005' status='broken' stop='1675967515009'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='a82b61c9-a675-4f59-8051-c0fc1d63a6f0-attachment.json' type='application/json' size='119'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>LinkServicesTradingAccount is not defined</message>
+                <stack-trace>ReferenceError: LinkServicesTradingAccount is not defined
+                    at HomePage.isTradingAccountLinkDisplayed (C:\Users\DELL\IIProject\pages\home.page.js:42:14)
+                    at Context.&lt;anonymous> (C:\Users\DELL\IIProject\test\home.test.js:30:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675967515023' status='passed' stop='1675967515024'>
+            <name>verify Pensions header</name>
+            <title>verify Pensions header</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675967515024' status='broken' stop='1675967515059'>
+            <name>verify click on SIPP drawdown link and verify the new url</name>
+            <title>verify click on SIPP drawdown link and verify the new url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675967515039' status='broken' stop='1675967515059'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675967515050' status='broken' stop='1675967515059'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='a7ac8ebd-3649-4814-9267-74f291212032-attachment.json' type='application/json' size='119'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>LinkPensionsSIPPDown is not defined</message>
+                <stack-trace>ReferenceError: LinkPensionsSIPPDown is not defined
+                    at HomePage.VerifySIPPdrawdownLinkDisplayed (C:\Users\DELL\IIProject\pages\home.page.js:86:13)
+                    at Context.&lt;anonymous> (C:\Users\DELL\IIProject\test\home.test.js:43:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675967515090' status='passed' stop='1675967515094'>
+            <name>verify click on Investments header and verify text</name>
+            <title>verify click on Investments header and verify text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675967515094' status='passed' stop='1675967515135'>
+            <name>verify click on FTSE250 link and verify the new url</name>
+            <title>verify click on FTSE250 link and verify the new url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675967515124' status='undefined'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1675967515174' status='broken' stop='1675967515177'>
+            <name>verify click on Help &amp; learning header and verify text</name>
+            <title>verify click on Help &amp; learning header and verify text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675967515175' status='broken' stop='1675967515177'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>headerHelplearning is not defined</message>
+                <stack-trace>ReferenceError: headerHelplearning is not defined
+                    at HomePage.verifyHelplearningHeaderText (C:\Users\DELL\IIProject\pages\home.page.js:117:13)
+                    at Context.&lt;anonymous> (C:\Users\DELL\IIProject\test\home.test.js:63:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675967515185' status='broken' stop='1675967515206'>
+            <name>verify click on Knowledge Centre link and verify the new url</name>
+            <title>verify click on Knowledge Centre link and verify the new url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675967515187' status='broken' stop='1675967515206'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='96f09f17-8232-4c69-80de-819a93f8b304-attachment.json' type='application/json' size='123'/>
+                    </attachments>
+                    <steps>
+                        <step start='1675967515199' status='broken' stop='1675967515206'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1675967515201' status='broken' stop='1675967515206'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='1ea85501-4f33-4941-8503-5f813b932e3b-attachment.json' type='application/json' size='123'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>homePage.LinkHelplearningKnowledgeCentre is not a function</message>
+                <stack-trace>TypeError: homePage.LinkHelplearningKnowledgeCentre is not a function
+                    at Context.&lt;anonymous> (C:\Users\DELL\IIProject\test\home.test.js:69:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
